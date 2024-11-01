@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36 Edg/130.0.0.0" version="24.8.3">
   <diagram name="Page-1" id="rKgeyhJmiH8u-wBGFro0">
-    <mxGraphModel dx="1021" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1848" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,8 +35,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="oK8GmiHx1QteKNi44rwD-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oK8GmiHx1QteKNi44rwD-17" target="oK8GmiHx1QteKNi44rwD-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oK8GmiHx1QteKNi44rwD-48" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oK8GmiHx1QteKNi44rwD-47">
+          <mxGeometry x="-0.2084" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="oK8GmiHx1QteKNi44rwD-17" value="Is the opportunity still present?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="305" y="480" width="130" height="175" as="geometry" />
+          <mxGeometry x="305" y="470" width="130" height="175" as="geometry" />
         </mxCell>
         <mxCell id="oK8GmiHx1QteKNi44rwD-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oK8GmiHx1QteKNi44rwD-19" target="oK8GmiHx1QteKNi44rwD-23">
           <mxGeometry relative="1" as="geometry" />
@@ -50,6 +58,14 @@
         <mxCell id="oK8GmiHx1QteKNi44rwD-30" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oK8GmiHx1QteKNi44rwD-29">
           <mxGeometry x="0.0458" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oK8GmiHx1QteKNi44rwD-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oK8GmiHx1QteKNi44rwD-23" target="oK8GmiHx1QteKNi44rwD-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oK8GmiHx1QteKNi44rwD-55" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="oK8GmiHx1QteKNi44rwD-53">
+          <mxGeometry x="-0.0565" y="2" relative="1" as="geometry">
+            <mxPoint x="2" y="-110" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oK8GmiHx1QteKNi44rwD-23" value="Is the letter appears one or more times in the word." style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
@@ -74,25 +90,51 @@
         <mxCell id="oK8GmiHx1QteKNi44rwD-28" value="Are all the letters found" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="285" y="1200" width="170" height="197.5" as="geometry" />
         </mxCell>
-        <mxCell id="oK8GmiHx1QteKNi44rwD-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oK8GmiHx1QteKNi44rwD-31" target="oK8GmiHx1QteKNi44rwD-17">
+        <mxCell id="oK8GmiHx1QteKNi44rwD-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="oK8GmiHx1QteKNi44rwD-17">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="1183.7488888888888" as="sourcePoint" />
+            <mxPoint x="260" y="560" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="130" y="440" />
-              <mxPoint x="370" y="440" />
+              <mxPoint y="1184" />
+              <mxPoint y="558" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="oK8GmiHx1QteKNi44rwD-31" value="Display the a string of characters with the known letters visible and the unknown one replaced with a Dash" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="792.5000000000001" width="130" height="103.75" as="geometry" />
+          <mxGeometry x="-70" y="1080" width="130" height="103.75" as="geometry" />
         </mxCell>
         <mxCell id="oK8GmiHx1QteKNi44rwD-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oK8GmiHx1QteKNi44rwD-34" target="oK8GmiHx1QteKNi44rwD-38">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="1583" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="oK8GmiHx1QteKNi44rwD-34" value="Present the message to confirm that all the letters are found with the complete word in quotes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="310" y="1546.25" width="120" height="73.75" as="geometry" />
         </mxCell>
         <mxCell id="oK8GmiHx1QteKNi44rwD-38" value="End." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="1694" width="120" height="60" as="geometry" />
+          <mxGeometry x="480" y="1730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oK8GmiHx1QteKNi44rwD-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oK8GmiHx1QteKNi44rwD-46" target="oK8GmiHx1QteKNi44rwD-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="550" y="1583" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oK8GmiHx1QteKNi44rwD-46" value="Display teh message to inform the user that unfortunately he has lost and diaplay the correct word." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1518.13" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oK8GmiHx1QteKNi44rwD-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oK8GmiHx1QteKNi44rwD-52" target="oK8GmiHx1QteKNi44rwD-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="558" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oK8GmiHx1QteKNi44rwD-52" value="Reduce the number of opportunites" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="630" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
